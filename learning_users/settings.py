@@ -25,7 +25,8 @@ SECRET_KEY = '(18g(!g8&ph93xn*&)^md!xge#@q8gtv(u@5(q9u*sfu6@hexh'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'abeats20.pythonanywhere.com'
+    'abeats20.pythonanywhere.com',
+    'aqueous-anchorage-96962.herokuapp.com'
 ]
 
 # Application definition
