@@ -24,7 +24,9 @@ SECRET_KEY = '(18g(!g8&ph93xn*&)^md!xge#@q8gtv(u@5(q9u*sfu6@hexh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'abeats20.pythonanywhere.com'
+]
 
 # Application definition
 
@@ -82,13 +84,6 @@ DATABASES = {
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
 
-# PASSWORD_HASHERS = [
-#     'django.contrib.auth.hashers.PBKDF2PasswordHasher',
-#     'django.contrib.auth.hashers.BCryptSHA256PasswordHasher'
-#     'django.contrib.auth.hashers.BCryptPasswordHasher',
-#     'django.contrib.auth.hashers.PBKDF2PasswordHasher',
-#     'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
-# ]
 
 PASSWORD_HASHERS = [
     'django.contrib.auth.hashers.PBKDF2PasswordHasher',
